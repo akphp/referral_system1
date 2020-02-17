@@ -32,7 +32,7 @@
 
                   <div class="card">
                     <div class="card-body">
-                       <h4 class="text-danger">  Your current total score is :  {{ Auth::user()->points }} </h4>
+                       <h4 class="text-danger">  Your current total points is :  {{ Auth::user()->points }} </h4>
                     </div>
                   </div>
 
